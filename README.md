@@ -20,6 +20,8 @@ This Ansible playbook performs various setup and configuration tasks on a Linux 
 8. Gather and display detailed CPU information
 
 ## Usage
+Set correct ssh key in hosts
+ansible_ssh_private_key_file
 
 To run this playbook, execute the following command:
 
