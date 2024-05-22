@@ -23,6 +23,8 @@ This Ansible playbook performs various setup and configuration tasks on a Linux 
 Set correct ssh key in hosts
 ansible_ssh_private_key_file
 
+There is one external role named common.
+
 To run this playbook, execute the following command:
 
 ```sh
