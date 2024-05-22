@@ -1,0 +1,10 @@
+---
+
+# Service management tasks
+
+- name: 'Manage service settings'
+  become: True
+  service:
+    name: "{{ sysfs_service_name }}"
+    enabled: "{{ sysfs_service_enabled }}"
+  when: 'sysfs_service_name | bool'

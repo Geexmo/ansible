@@ -1,0 +1,6 @@
+---
+# ansible-galaxy install -r requirements.yml
+roles:
+  - name: common
+    src: git@github.com:Geexmo/common.git
+    scm: git

@@ -1,0 +1,7 @@
+[ubuntu]
+ubuntu ansible_host=52.59.219.51
+
+[all:vars]
+ansible_user=ubuntu
+ansible_user_group=ansible
+ansible_ssh_private_key_file=/Users/mikhail/Downloads/mganin.pem
