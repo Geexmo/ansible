@@ -1,6 +1,12 @@
 ---
 # ansible-galaxy install -r requirements.yml
 roles:
-  - name: common
-    src: git@github.com:Geexmo/common.git
+  - name: encrypt
+    src: git@github.com:Geexmo/encrypt.git
+    scm: git
+  - name: cpu
+    src: git@github.com:Geexmo/cpu.git
+    scm: git
+  - name: net
+    src: git@github.com:Geexmo/net.git
     scm: git
